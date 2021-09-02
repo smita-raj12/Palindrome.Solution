@@ -15,7 +15,7 @@ namespace Palindrome.Tests
     [TestMethod]
     public void IsPalindromeWord_Returns_Palindrome_Word_True()
     {
-      PalindromeWord testPalindromeWord = new PalindromeWord("redivider");
+      PalindromeWord testPalindromeWord = new PalindromeWord("level");
       Assert.AreEqual( true, testPalindromeWord.PalindromeCheck());
     }
     [TestMethod]
