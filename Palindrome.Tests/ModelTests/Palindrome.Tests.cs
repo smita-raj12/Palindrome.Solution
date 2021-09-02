@@ -18,6 +18,12 @@ namespace Palindrome.Tests
       PalindromeWord testPalindromeWord = new PalindromeWord("redivider");
       Assert.AreEqual( true, testPalindromeWord.PalindromeCheck());
     }
+    [TestMethod]
+    public void IsPalindromeWord_Returns_Palindrome_Word_False()
+    {
+      PalindromeWord testPalindromeWord = new PalindromeWord("abcd");
+      Assert.AreEqual( false, testPalindromeWord.PalindromeCheck());
+    }
   }
 } 
 
